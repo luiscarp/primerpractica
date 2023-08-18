@@ -86,15 +86,33 @@ a{
 }
 
 .contenidoPrincipal-cursos-link{
+    content: '';
+    
+
+}
+
+.contenidoPrincipal-cursos-link a:{
     display: flex;
     flex-direction: column;
     width: 20vw;
     height: 10vw;
     border: black solid;
     margin: 1vw;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: flex-end;
     
 
 }
 
 
+.contenidoPrincipal-cursos-link:nth-child(even) a:before{
+    background: url(../img/background1.svg) no-repeat;
+    
+
+}
+
+.contenidoPrincipal-cursos-link:nth-child(odd) a:before{
+    background: url(../img/background2.svg) no-repeat;
+    
+
+}
