@@ -85,13 +85,8 @@ a{
 
 }
 
-.contenidoPrincipal-cursos-link{
-    content: '';
-    
 
-}
-
-.contenidoPrincipal-cursos-link a:{
+.contenidoPrincipal-cursos-link {
     display: flex;
     flex-direction: column;
     width: 20vw;
@@ -105,6 +100,7 @@ a{
 }
 
 
+
 .contenidoPrincipal-cursos-link:nth-child(even) a:before{
     background: url(../img/background1.svg) no-repeat;
     
@@ -116,3 +112,5 @@ a{
     
 
 }
+
+
