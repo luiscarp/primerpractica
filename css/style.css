@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(234, 244, 255);
+    font-family: 'Open Sans', Arial, sans-serif;
+    width: 100vw;
+}
+.headerPrincipal .container{
+    background-color: white;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: aliceblue;
+ 
+}
+
+.headerPrincipal-titulo{
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    font-weight: bold;
+    font-size: 3vw;
+    width: 40vw;
+    margin-left: 4rem;
+
+}
+
+.headerPrincipal-nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+    justify-content: flex-end;
+    justify-items: center;
+    margin-right: 0rem;
+    width: 60vw;
+    margin-right: 4rem;
+}
+
+.headerPrincipal-nav-link{
+    color: grey;
+    font-size: 1.5vw;
+    padding: 0.8vw;
+    border: grey solid;
+    margin: 0.5vw;
+    border-radius: 1vw;
+    background-color: white;
+    transition: .5s;
+}
+
+.headerPrincipal-nav-link:hover{
+    color: white;
+    background-color: grey;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.contenidoPrincipal .container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    margin-left: 4rem;
+}
+
+.subtitulo{
+    font-weight: bold;
+    font-size: 3vw;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.contenidoPrincipal-cursos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+
+.contenidoPrincipal-cursos-link{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 10vw;
+    border: black solid;
+    margin: 1vw;
+    align-items: flex-end;
+    
+
+}
+
+
