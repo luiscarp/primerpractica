@@ -165,16 +165,16 @@ a{
 .videoSobre-sobre{
     display: flex;
     flex-direction: column;
-    margin-left: 1vw;
-    border: solid rgb(206, 10, 10);
+    margin-left: 3vw;
     width: 35vw;
     align-items: center;
 }
 
 .videoSobre-sobre-title {
-    border: solid black;
     color: white;
     margin-bottom: 1vw;
+    font-size: 2.5vw;
+    font-weight: bold;
 }
 
 .videoSobre-sobre-item {
@@ -182,15 +182,19 @@ a{
     flex-direction: column;
     margin-bottom: 2vw;
     margin-top: 2vw;
-    border: solid black;
     color: white;
     align-items: center;
+    font-size: 2vw;
     
 }
 
 .videoSobre-button{
-    padding: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 14vw;
+    padding-right: 14vw;
     border-radius: 0.5vw;
-    border: solid black;
     margin-bottom: 0px;
+    color: white;
+    background-color: rgb(236, 109, 90);
 }
