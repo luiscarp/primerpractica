@@ -137,5 +137,60 @@ a{
 
 }
 
+.videoSobre{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(94,158,220);
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 
+}
 
+.videoSobre .container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.videoSobre-video{
+    width: 48vw;
+    margin-right: 1vw;
+}
+
+.videoSobre-sobre{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+    border: solid rgb(206, 10, 10);
+    width: 35vw;
+    align-items: center;
+}
+
+.videoSobre-sobre-title {
+    border: solid black;
+    color: white;
+    margin-bottom: 1vw;
+}
+
+.videoSobre-sobre-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    border: solid black;
+    color: white;
+    align-items: center;
+    
+}
+
+.videoSobre-button{
+    padding: 1vw;
+    border-radius: 0.5vw;
+    border: solid black;
+    margin-bottom: 0px;
+}
