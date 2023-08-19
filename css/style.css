@@ -91,12 +91,25 @@ a{
     flex-direction: column;
     width: 20vw;
     height: 10vw;
-    border: black solid;
     margin: 1vw;
     align-items: center;
     justify-content: flex-end;
+    background-color: white;
+    box-shadow: 0.25vw 0.25vw 0.25vw grey;
     
+}
 
+.contenidoPrincipal-cursos-link:hover {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 10vw;
+    margin: 1vw;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(224, 217, 217);
+    box-shadow: 0.1vw 0.1vw 0.1vw grey;
+    
 }
 
 .contenidoPrincipal-cursos-link a:before{
@@ -123,5 +136,6 @@ a{
     
 
 }
+
 
 
