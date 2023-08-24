@@ -69,7 +69,7 @@ a{
     margin-left: 4rem;
 }
 
-.subtitulo{
+.subtitulo1{
     font-weight: bold;
     font-size: 3vw;
     margin-top: 1rem;
@@ -155,6 +155,8 @@ a{
     margin-right: 5vw;
     align-content: space-between;
     flex-wrap: wrap;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 
 .videoSobre-video{
@@ -197,4 +199,92 @@ a{
     margin-bottom: 0px;
     color: white;
     background-color: rgb(236, 109, 90);
+}
+
+.rodapePrincipal-navMap{
+    color: white;
+    background-color: rgb(50, 76, 99);
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin-top: 2vw;
+
+}
+
+.subtitulo2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+
+
+.rodapePrincipal-navMap-list-container{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2vw;
+}
+
+.navMap-list-container{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+
+}
+
+.rodapePrincipal-navMap-link{
+    margin-top: 0.8vw;
+    margin-bottom: 0.8vw;
+}
+
+.navmap-list-title-navmap-list-title-backend{
+    color: rgb(46, 152, 122);
+    font-size: 1.5vw;
+
+}
+
+.navmap-list-title-navmap-list-title-frontend{
+    color: rgb(91, 188, 221);
+    font-size: 1.5vw;
+    font-weight: bold;
+
+}
+
+.navmap-list-title-navmap-list-title-framework{
+    color: rgb(139, 124, 167);
+    font-size: 1.5vw;
+    font-weight: bold;
+
+}
+
+.navmap-list-title-navmap-list-title-bancoDeDados{
+    color: rgb(192, 111, 101);
+    font-size: 1.5vw;
+    font-weight: bold;
+
+
+}
+
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    flex-direction: row;
+}
+
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodapePrincipal-contatoForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 25%;
 }
